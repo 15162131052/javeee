@@ -51,7 +51,7 @@ public class CartController {
 				String number,
 				String username,
 			   ModelAndView mv ){
-		Cart newcart = cartService.newcart(id,name, price,image,number,username);
+		cartService.newcart(id,name, price,image,number,username);
 		mv.setViewName("product");
 		return mv;
 	}

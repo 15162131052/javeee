@@ -36,15 +36,15 @@
 <div class="container">
 
    <div class="com-md-6 col-md-offset-4">
-   		<a href="addproduct" class="btn btn-warning btn-lg">商品管理</a>
+   		<a href="addproduct" class="btn btn-warning btn-lg">我要添加商品</a>
    </div>	
    <br>
    <div class="com-md-6 col-md-offset-4">
-   		<a href="lookorder" class="btn btn-warning btn-lg">订单管理</a>
+   		<a href="lookorder" class="btn btn-warning btn-lg">订单状态修改</a>
    </div>
    <br>
    <div class="com-md-6 col-md-offset-4">
-   		<a href="newstock" class="btn btn-warning btn-lg">库存管理</a>
+   		<a href="newstock" class="btn btn-warning btn-lg">销量库存管理</a>
    </div>
 </div>
 <hr>  

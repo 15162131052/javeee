@@ -46,6 +46,11 @@ dependencies {
 	compile group: 'javax.servlet.jsp', name: 'javax.servlet.jsp-api', version: '2.2.1'
 	compile group: 'commons-io', name: 'commons-io', version: '2.4'
     testCompile 'junit:junit:4.12'
+    
+    compile group: 'javax.servlet.jsp', name: 'javax.servlet.jsp-api', version: '2.2.1'
+	compile group: 'commons-io', name: 'commons-io', version: '2.4'
+	compile group: 'org.springframework', name: 'spring-test', version: '3.2.0.RELEASE'
+    
 }
 tasks.withType(JavaCompile) {  
     options.encoding = "UTF-8"  

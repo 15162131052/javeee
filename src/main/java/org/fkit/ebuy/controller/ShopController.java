@@ -64,9 +64,9 @@ public class ShopController {
 	}
 	@RequestMapping(value="/LSSB")
 	 public String LSSB (Model model){
-		// 获得所有卫衣集合
+		// 获得所有LSSB集合
 		List<Product> LSSB_list = shopService.getAll2();
-		// 将卫衣集合添加到model当中
+		// 将LSSB集合添加到model当中
 		model.addAttribute("LSSB_list", LSSB_list);
 		// 跳转到main页面
 		return "LSSB";

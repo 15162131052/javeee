@@ -39,7 +39,8 @@ public class CollectController {
 		return "collection";
 	}
 	@RequestMapping(value="/newcollect")
-	 public ModelAndView newcollect(int id,
+	 public ModelAndView newcollect(
+			 int id,
 			 String goodsname,
 				String price, 
 				String image, 
