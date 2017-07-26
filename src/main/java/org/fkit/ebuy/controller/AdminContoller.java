@@ -58,7 +58,7 @@ public class AdminContoller {
 				     int typeid,
 					 ModelAndView mv,
 				     HttpSession session){
-	   Product addproduct  = adminService.addproduct (name,price,descripts,image,image2,image3,image4,stock, sales,typeid);
+		 Product addproduct  = adminService.addproduct (name,price,descripts,image,image2,image3,image4,stock, sales,typeid);
 	     mv.setViewName("addproductsuccess");
 			return mv;
 	
@@ -102,8 +102,8 @@ public class AdminContoller {
 		public ModelAndView updatestock(
 		        int id,
 				String name,
-				String stock, 
-				String sales,
+				int stock, 
+				int sales,
 				ModelAndView mv,
 				HttpSession session){
 			Product upstock=adminService.updatestock(id,name,stock,sales);

@@ -25,7 +25,7 @@
 <div class=" container">
 	<div class="row">
 		        		<div class="col-md-9 col-sm-6">
-		            		<p><a href="main" class="btn btn-danger btn-lg">  <span class="glyphicon glyphicon-home"></span> <strong>易购</strong></a> 
+		            		<p><a href="main" class="btn btn-danger btn-lg">  <span class="glyphicon glyphicon-home"></span> <strong>E公司</strong></a> 
 		                <a ><strong>欢迎登陆</strong></a> </p>
 		           		 </div>  
 		              <div class="col-md-3  col-sm-6" > <br><a href="loginForm">已有账号？直接登录</a></div>

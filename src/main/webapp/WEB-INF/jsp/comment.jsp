@@ -71,6 +71,7 @@
    </div>
    <div class="input-group input-group-lg">
      	<input type="text" id="comments" name="comments" class="form-control"  style="width:600px;height:270px;">
+  <p>图文评论</p>
    </div>
    <div class="input-group input-group-lg">
     		 <label for="inputfile">添加图片</label>
@@ -80,6 +81,6 @@
 			<input type="submit" value="发表评论">
 	</div>
 </form>
-
+<p><a href="lookcomment">查看所有评论</a></p>
 </body>
 </html>

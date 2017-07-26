@@ -38,6 +38,6 @@ public interface AdminMapper {
 		List<Product> findAll1();
 		
 		@Select("update tb_product set name=#{name},stock=#{stock},sales=#{sales} where id=#{id}")
-		Product updatestock(@Param("id")int id,@Param("name")String name,@Param("stock")String stock,@Param("sales")String sales);
+		Product updatestock(@Param("id")int id,@Param("name")String name,@Param("stock")int stock,@Param("sales")int sales);
 
 }

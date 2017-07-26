@@ -1,3 +1,5 @@
-/org/
+/Library.class
+/LibraryTest.class
 /applicationContext.xml
-/springmvc-config.xml
+/log4j.properties
+/org/

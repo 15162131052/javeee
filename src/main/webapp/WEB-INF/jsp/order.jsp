@@ -48,6 +48,7 @@
                 <li><a href="shop">E商城</a></li>
                 <li><a href="collection.action?username=${ sessionScope.user.username }" >E收藏</a></li>
                  <li><a href="order.action?username=${ sessionScope.user.username }">E订单</a></li>
+                
              </ul>
     	 </div>
    </div>

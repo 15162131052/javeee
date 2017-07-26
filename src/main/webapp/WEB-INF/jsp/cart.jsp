@@ -84,18 +84,7 @@
              	</td>
              	<td style="vertical-align: middle;"> <a href="deletecart.action?id=${cart.id}">删除</a> </td>
              </tr>
-     <!--     <form action="updatecart" method="post" >
-	           <div class="col-md-6">
-			         <div class="col-md-4">
-			         		<input type="hidden" name="id" id="id" tabindex="1" class="form-control" value="${cart.id}" > 
-			                <input type="hidden" name="name" id="name" tabindex="1" class="form-control" value="${cart.name}" >
-			                <input type="hidden" name="price" id="price" tabindex="1" class="form-control" value="${cart.price}" >
-			                <input type="hidden" name="image" id="image" tabindex="1" class="form-control" value="${product.image}" >
-			                <input type="hidden" name="number" id="number" tabindex="1" class="form-control" value="" >
-			                <input type="hidden" name="username" id="username" tabindex="1" class="form-control" value="${ sessionScope.user.username }" >
-			         </div> 
-		        </div>
-        	  </form>  -->     
+        
      </table>
      </c:forEach>
  </div>

@@ -30,7 +30,11 @@
 	<div class="row">
 		        		<div class="col-md-6 col-sm-3">
 		            		<p><br><br><br><br><a href="main" class="btn btn-success btn-lg">  <span class="glyphicon glyphicon-home"></span> <strong>E-公司</strong></a> 
-		                <a ><strong>点击登陆</strong></a> </p>
+		               <div class="row ">
+                 <div class="col-md-5 col-md-offset-5">
+                   <a href="adminloginForm" class="btn btn-warning">管理员登录</a>
+                 </div>
+                </div>
 		           		 </div>  
 		            
   </div>
@@ -40,7 +44,7 @@
 					<div class="panel-heading">
 						<div class="row">
 							<div class="text-center">
-                            	<p>点击登陆</p> 
+                            	E公司登录界面
 							</div>
 						</div>
 						<hr>
@@ -93,11 +97,7 @@
   </div>
   </div>
 </div>
-			<div class="row ">
-                 <div class="col-md-5 col-md-offset-5">
-                   <a href="adminloginForm" class="btn btn-warning">管理员登录</a>
-                 </div>
-                </div>
+			
 </div>
 
 

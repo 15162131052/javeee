@@ -149,7 +149,7 @@
  <hr>
 
  <div class="container">
- <p>商品评论</p>
+  <button type="submit" class="btn btn-warning btn-lg " ><a href="comment">商品评论</a></button>
 <!--   <form action="product.comment" method="post"> -->
  <c:forEach items="${requestScope.comment_list }" var="c">
   <div class="row">
@@ -191,7 +191,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p>Copyright © MyWebsite. All rights reserved.</p>
+        <p>欢迎来到E公司</p>
       </div>
     </div>
   </div>

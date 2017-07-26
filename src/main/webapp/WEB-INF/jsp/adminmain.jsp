@@ -11,8 +11,8 @@
 <title>E-公司</title>
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="myown.css">
+<link href="css/myown.css" rel="stylesheet" type="text/css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -21,42 +21,44 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 </head>
-<body>
- <div class="container">
-  <div class="row"> 
-        <div class="col-md-10  col-sm-6"  > 
-           <a>E-公司欢迎你</a>
-        </div>
-        <div class="col-md-2">
-			<a href="loginForm"  >用户登录</a>
-	 	 </div>    
-   </div>              
- </div>
-    <br> <hr>
-<div class="container">
+<body >
+     <div class="light">
+ <img src="images/图标.png"/>
+ 
 
-   <div class="com-md-6 col-md-offset-4">
-   		<a href="addproduct" class="btn btn-warning btn-lg">我要添加商品</a>
-   </div>	
-   <br>
-   <div class="com-md-6 col-md-offset-4">
-   		<a href="lookorder" class="btn btn-warning btn-lg">订单状态修改</a>
-   </div>
-   <br>
-   <div class="com-md-6 col-md-offset-4">
-   		<a href="newstock" class="btn btn-warning btn-lg">销量库存管理</a>
-   </div>
+       <div class="light-inner">
+		E公司欢迎您
+	 	 </div>    
+ </div>
+<div class="background">
+<div class="transbox">
+<p>
+欢迎进入管理员操作界面，在这里你可以进行商品，订单，库存等一系列的管理
+</p>
 </div>
+</div>
+
+<a href="loginForm"  >用户登录	</a>
+  
+    <br> <hr>
+
+   		  	<button class="button"><a href="addproduct" ><span>我要添加商品</span></a></button>
+
+   <br>
+  
+   	<button class="button">	<a href="lookorder">订单状态修改</a></button>
+   
+   <br>
+   
+   	<button class="button">	<a href="newstock">销量库存管理</a></button>
+ 
+
 <hr>  
 
-<footer class="text-center">
-  <div class="container">
-    <div class="row">
-      <div class="col-xs-12">
+<footer >
+  
         <p>欢迎 来到E公司.</p>
-      </div>
-    </div>
-  </div>
+  
 </footer>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) --> 
 <script src="jquery/jquery-3.2.1.min.js"></script>

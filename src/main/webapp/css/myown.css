@@ -1,0 +1,184 @@
+/*全局样式*/
+*{padding:0;margin:0;}
+div,dl,dt,dd,form,h1,h2,h3,h4,h5,h6,img,ol,ul,li,table,th,td,p,span,a{border:1;}
+img,input{border:none;vertical-align:middle;}
+body{font-family:Tahoma,Arial,Helvetica,"宋体";font-size:20px;text-align:center;background:#FFF;color:#8080c0;}
+html{overflow-y:scroll;}
+ul,ol{list-style-type:none;}
+th,td,input{font-size:20px;}
+h3{font-size:20px;}
+button{border:2;cursor:pointer;font-size:12px;background-color:transparent;}
+select{border-width:1px;_zoom:1;border-style:solid;padding-top:20px;font-size:20px;}
+.clear{clear:both;font-size:1px;height:0;visibility:hidden;line-height:0;}
+.clearfix:after{content:"";display:block;clear:both;}
+.clearfix{zoom:1;}
+a:link,a:visited{text-decoration:none;color:#333;}
+a:hover,a:active{text-decoration:underline;color:#f60;}
+.demo1{
+    width: 500px;
+    height: 300px;
+    line-height: 200px;
+    text-align: center;
+}
+.demo1:before{
+    background: url(images/购物车图标.jpg) no-repeat;
+    background-size: cover;
+    width: 500px;
+    height: 300px;
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;/*-1 可以当背景*/
+    -webkit-filter: blur(1px);
+    filter: blur(1px);
+}
+div.background
+{
+  width: 500px;
+  height: 280px;
+  background: url(images/购物车图标.jpg) no-repeat;
+  border: 1px solid black;
+}
+
+div.transbox
+{
+  width: 400px;
+  height: 180px;
+  margin:30px;
+  background-color: #ff80ff;
+  border: 1px solid black;
+  filter:alpha(opacity=60);
+  opacity:0.6;
+}
+
+div.transbox p
+{
+  margin: 30px 40px;
+  
+}
+.light{
+ background: #ffff80;
+ width: 100px;
+ height: 100px;
+ margin: 10px auto;
+ position: relative;
+ text-align: center;
+ color: #ff0080;
+ transform:translate3d(0,0,0);
+ 
+}
+.light-inner{
+ padding: 60px 30px 0;
+ pointer-events: none;
+ position: absolute;
+ left: 0;
+ top: 0;
+ bottom: 0;
+ right: 0;
+ text-align: right;
+ transition: background 0.35s;
+ backface-visibility: hidden;
+}
+.light-inner:before, .light-inner:after{
+ display: block;
+ content: "";
+ position: absolute;
+ left: 30px;
+ top: 30px;
+ right: 30px;
+ bottom: 30px;
+ border: 1px solid #fff;
+ opacity: 0;
+ transition: opacity 0.35s, transform 0.35s;
+}
+.light-inner:before{
+ border-left: 0;
+ border-right: 0;
+ transform:scaleX(0,1);
+}
+.light-inner:after{
+ border-top: 0;
+ border-bottom: 0;
+ transform: scaleY(1,0);
+}
+.light:hover .light-inner{
+ background: #458fd2
+}
+.light:hover .light-inner:before, .light:hover .light-inner:after{
+ opacity: 1;
+ transform: scale3d(1,1,1);
+}
+ 
+.light-inner p{
+ transition: opacity .35s, transform 0.35s;
+ transform: translate3d(0,20px,0);
+ color: #fff;
+ opacity: 0;
+ line-height: 30px;
+}
+.light:hover .light-inner p{
+ transform: translate3d(0,0,0);
+ opacity: 1;
+}
+/*按钮*/
+.button {  
+    display: inline-block;  
+
+    *display: inline;  
+    vertical-align: baseline;  
+    margin: 0 2px;  
+    outline: 1;  
+    cursor: pointer;  
+    text-align: center;  
+    text-decoration: none;  
+    font: 14px/100% 华文行楷, Helvetica, sans-serif;  
+    padding: .5em 2em .55em;  
+    text-shadow: 0 1px 1px rgba(0,0,0,.3);  
+    -webkit-border-radius: .5em;   
+    -moz-border-radius: .5em;  
+    border-radius: .5em;  
+    -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    -moz-box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+    box-shadow: 0 1px 2px rgba(0,0,0,.2);  
+}  
+.button:hover {  
+    text-decoration: none;  
+}  
+.button:active {  
+    position: relative;  
+    top: 1px;  
+}  
+  
+.bigrounded {  
+    -webkit-border-radius: 2em;  
+    -moz-border-radius: 2em;  
+    border-radius: 2em;  
+}  
+.medium {  
+    font-size: 12px;  
+    padding: .4em 1.5em .42em;  
+}  
+.small {  
+    font-size: 11px;  
+    padding: .2em 1em .275em;  
+}  
+  .box{
+    background: #00ffff;
+    border-bottom: #b7b7b7 1px solid;
+    border-left: #b7b7b7 1px solid;
+    border-right: #b7b7b7 1px solid;
+    border-top: #b7b7b7 1px solid;
+    color: #000000;
+    cursor: text;
+    font-family: "arial";
+    font-size: 12pt;
+    padding: 1px; 
+.table{
+width: 800px;
+height: 100px;
+margin: 0px auto;
+margin-bottom:20px;
+border:1px solid #A5B6C8;
+background-color: #EEF3F7
+}

@@ -11,8 +11,8 @@
 <title>E公司</title>
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/myown.css">
+<link href="myown.css" rel="stylesheet" type="text/css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -40,7 +40,7 @@
         	<tr> 
             	<th>订单号</th>
             	<th>用户名</th>     
-                <th >运送地址</th>
+                <th >配送地址</th>
                 <th >联系电话</th>
                 <th >总金额 </th>
                 <th >状态</th>
@@ -76,7 +76,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p>Copyright ©YX MyWebsite. All rights reserved.</p>
+        <p>欢迎来到E公司.</p>
       </div>
     </div>
   </div>

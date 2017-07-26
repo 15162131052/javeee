@@ -11,8 +11,8 @@
 <title>E公司</title>
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="myown.css">
+<link href="myown.css" rel="stylesheet" type="text/css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -33,7 +33,7 @@
    </div>              
  </div>    <br> <hr>
  <div class="container">
-   <h2>查询订单</h2>
+   <h2><a href="lookorder">查询订单</a></h2>
     <table class="table table-condensed" border="1">
      	<thead>
         	<tr> 
@@ -58,7 +58,7 @@
              			<input type="hidden" id="address" name="address" value="${order.address}"/>
              			<input type="hidden" id="phone" name="phone" value="${order.phone}"/>
              			<input type="hidden" id="totalprice" name="totalprice" value="${order.totalprice}"/>
-             			<input type="text" id="status" name="status" value="${order.status}" placeholder="发货中/已发货/已收货"/>
+             			<input type="text" id="status" name="status" value="${order.status}" placeholder="发货中/已发货/已收货">
              			<button class="btn btn-default ">修改状态</button>   
              		</form>
              	</td>
@@ -80,7 +80,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p>Copyright ©YX MyWebsite. All rights reserved.</p>
+        <p>欢迎来到E公司 </p>
       </div>
     </div>
   </div>

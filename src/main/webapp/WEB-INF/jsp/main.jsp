@@ -61,6 +61,7 @@
                 <li><a href="shop">E商城</a></li>
                  <li><a href="collection.action?username=${ sessionScope.user.username }" >E收藏</a></li>
                 <li><a href="order.action?username=${ sessionScope.user.username }">E订单</a></li>
+             <li><a href="lookcomment.action?username=${ sessionScope.user.username }">E评论</a></li>
              </ul>
     	 </div>
    </div>
@@ -96,51 +97,7 @@
 
  <hr>
  <!-- PS图片加入 -->
- <div class="container">
-		<div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
-          <a href="Tshirt" target="_blank">
-                <h3 class="text-center" >奢华品质 鼠标</h3>
-                <em > <img src="images/联想鼠标8.jpg" alt="联想鼠标" /></em>
-        </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
-          <a href="LSSB" target="_blank">
-                <h3 class="text-center"></h3>
-                <em > <img src="images/雷蛇鼠标6.jpg" alt="雷蛇鼠标" /></em></a>
-        </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
-          <a href="SRSB" target="_blank">
-                <h3 class="text-center"> </h3>
-                <em > <img src="images/赛锐鼠标7.jpg" alt="赛锐鼠标" /></em></a>
-        </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
-          <a href="canvasbag" target="_blank">
-                <h3 class="text-center"> </h3>
-                <em > <img src="images/罗技鼠标7.jpg" alt="罗技鼠标" /></em>
-        </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
-          <a href="more" target="_blank">
-                <h3 class="text-center">实用经济鼠标</h3>
-                <em > <img src="images/赛锐鼠标1.jpg" alt="赛锐鼠标" /></em>
-        </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
-          <a href="more" target="_blank">
-                <h3 class="text-center"></h3>
-                <em > <img src="images/联想鼠标1.jpg" alt="联想鼠标" /></em>
-        </div>
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
-          <a href="more" target="_blank">
-                <h3 class="text-center"> </h3>
-                <em > <img src="images/罗技鼠标1.jpg" alt="罗技鼠标" /></em>
-        </div>
-
-        <div class="col-sm-3 col-md-3 col-lg-3 col-xs-6">
-          <a href="more" target="_blank">
-                <h3 class="text-center"></h3>
-                <em > <img src="images/雷蛇鼠标1.jpg" alt="雷蛇鼠标" /></em>
-        </div>
-	
-</div>
- 
+  
  
 <hr>
 <!-- 联想鼠标-->
@@ -508,7 +465,8 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p>Copyright ©YX MyWebsite. All rights reserved.</p>
+       <p><a href="comment">用户评论</a></p>
+        <p>E公司欢迎您</p>
       </div>
     </div>
   </div>

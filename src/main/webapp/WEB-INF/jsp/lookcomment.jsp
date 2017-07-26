@@ -25,53 +25,51 @@
  <div class="container">
   <div class="row"> 
         <div class="col-md-10  col-sm-6"  > 
-           <a>E-公司欢迎您</a>
+           <a>E公司欢迎你</a>
         </div>
-           <div class="col-md-2">
-        <c:choose>
-		   <c:when test="${ sessionScope.user !=null }">
-					<a>${sessionScope.user.username}	</a>
-					&nbsp; 
-					<a href ="newuser-main">注销</a>
-			</c:when>
-	       <c:otherwise>
-					    <a href="loginForm"  >登录</a>
-					    		&nbsp; 
-						<a  href="register"  >注册</a>
-			</c:otherwise>
-	  	</c:choose>
-	  </div>
+        <div class="col-md-2">
+			<a href="loginForm"  >用户登录</a>
+	 	 </div>  
    </div>              
-       
-        
-   </div> 
-   <hr>
+ </div>    <br> <hr>
  <div class="container">
-  　<div class="col-md-1">
-  　   <img src="images/背景.jpg" class="img-responsive" alt="">
-  　</div>
-   <div class="col-md-9">
-      	<div class="navbar navbar-default " role="navigation">
-             <ul class="nav nav-pills  nav-justified">
-                <li ><a href="main">E首页</a></li>
-                <li><a href="shop">E商城</a></li>
-                 <li><a href="collection.action?username=${ sessionScope.user.username }" >E收藏</a></li>
-                 <li><a href="order.action?username=${ sessionScope.user.username }">E订单</a></li>
-             </ul>
-    	 </div>
-   </div>
-   <div class= "col-md-2">
-     	 <p><a href="cart.action?username=${ sessionScope.user.username }"  class="btn btn-warning btn-lg"><span class="glyphicon glyphicon-home"></span> <strong>购物车</strong> </a>  </p>     
-    </div>
+   <h2><a href="lookcomment">查询用户评论</a></h2>
+    <table class="table table-condensed" border="1">
+     	<thead>
+        	<tr> 
+            	<th>评论号</th>  
+            	<th>用户名</th>   
+                <th >服务质量</th>
+                <th >卖家服务</th>
+                <th >物流服务</th>
+                <th >图文评论</th>
+                <th>图片展示</th>
+            </tr>
+       </thead>
+            <c:forEach items="${requestScope.comment_list }" var="x">
+             <tr >
+             	<td style="vertical-align: middle;">${x.id } </td>
+             	<td style="vertical-align: middle;">${x.username }</td>
+             	<td style="vertical-align: middle;">${x.service }</td>
+             	<td style="vertical-align: middle;">${x.logistics} </td>
+             	<td style="vertical-align: middle;">${x.quality} </td>
+             	<td style="vertical-align: middle;">${x.comments} </td>
+             	<td style="vertical-align: middle;">${x.image1} </td>
+             		
+             	
+             </tr>
+            </c:forEach>
+     </table>
+ </div> 
+ 
 
-   </div>
 
-    
-    <br>
-    <div class="container">
-    	<h1> 新商品即将上架</h1>
-    </div>
+ 
+ 
 
+
+
+<hr>  
 
 <footer class="text-center">
   <div class="container">

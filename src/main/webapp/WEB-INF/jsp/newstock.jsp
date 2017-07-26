@@ -11,8 +11,8 @@
 <title>E公司</title>
 
 <!-- Bootstrap -->
-<link rel="stylesheet" href="css/bootstrap.min.css">
-<link href="bootstrap.min.css" rel="stylesheet" type="text/css">
+<link rel="stylesheet" href="css/myown.css">
+<link href="myown.css" rel="stylesheet" type="text/css">
 
 <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -35,7 +35,7 @@
  <div class="container">
    <h2>库存销量管理</h2>
   
-    <table class="table table-condensed" border="1">
+    <table class="table border="1" >
      	<thead>
         	<tr> 
             	<th>商品编号</th>  
@@ -58,7 +58,7 @@
              			<input type="hidden" id="name" name="name" value="${n.name}"/>
              			<input type="hidden" id="stock" name="stock" value="${n.stock}"/>
              			<input type="hidden" id="sales" name="sales" value="${n.sales}" />
-             			<button class="btn btn-default ">修改</button>   
+             			<button class="button"> 修改  </button>   
              	</td>
              </tr>
             </form>
@@ -81,7 +81,7 @@
   <div class="container">
     <div class="row">
       <div class="col-xs-12">
-        <p>Copyright ©YX MyWebsite. All rights reserved.</p>
+        <p>欢迎来到E公司</p>
       </div>
     </div>
   </div>

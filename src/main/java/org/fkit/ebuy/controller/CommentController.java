@@ -61,7 +61,7 @@ public class CommentController {
 						String image1,
 					   ModelAndView mv,
 				     HttpSession session){
-	   Comment comment  = commentService.comment(id,username,service,logistics,quality,comments,image1);
+	Comment comment  = commentService.comment(id,username,service,logistics,quality,comments,image1);
 	     mv.setViewName("comment");
 			return mv;
 	

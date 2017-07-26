@@ -15,7 +15,7 @@ public interface CommentService {
 	 * @return comment对象集合
 	 * */
 
-//	List<Comment> getAll(int pid);
+
 
 	
 

@@ -26,5 +26,5 @@ public interface AdminService {
 
 		List<Product> getAll1();
 
-		Product updatestock(int id, String name, String stock, String sales);
+		Product updatestock(int id, String name, int stock, int sales);
 }

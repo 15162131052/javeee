@@ -65,7 +65,7 @@ import org.springframework.transaction.annotation.Transactional;
 }
 
 		@Override
-		public Product updatestock(int id, String name, String stock, String sales) {
+		public Product updatestock(int id, String name, int stock, int sales) {
 			// TODO Auto-generated method stub
 			return adminMapper.updatestock(id, name,stock,sales);
 		}
